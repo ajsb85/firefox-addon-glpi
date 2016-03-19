@@ -1,5 +1,5 @@
 {
-  "title": "GLPI",
+  "title": "GLPi",
   "name": "jpm-glpi",
   "version": "0.1.0",
   "id": "glpi@teclib.com",
@@ -10,6 +10,11 @@
   "engines": {
     "firefox": ">=38.0a1"
   },
+  "locales":{
+    "es" : {
+      "title": "GLPi",
+      "description": "Complemento de Firefox para interactuar con el plugin de servicio Web en GLPi."}
+    },
   "permissions": {
     "multiprocess": true,
     "private-browsing": true,
