@@ -1,6 +1,6 @@
 {
   "title": "GLPI",
-  "name": "glpi",
+  "name": "jpm-glpi",
   "version": "0.1.0",
   "id": "glpi@teclib.com",
   "homepage": "http://glpi-project.org/",
@@ -15,7 +15,8 @@
     "private-browsing": true,
     "unsafe-content-script": true,
     "cross-domain-content": [
-      "https://mediahint.com", "https://gist.githubusercontent.com"
+      "http://glpi-project.org",
+      "https://github.com"
     ]
   },
   "preferences": [
@@ -27,6 +28,10 @@
       "value": false
     }
   ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ajsb85/jpm-glpi.git"
+  },
   "bugs": {
     "url": "http://github.com/ajsb85/jpm-glpi/issues"
   },
@@ -35,5 +40,8 @@
     "jetpack",
     "glpi",
     "it"
-  ]
+  ],
+  "dependencies": {
+    "glpi": "^1.0.0"
+  }
 }
