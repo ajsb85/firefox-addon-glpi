@@ -1,0 +1,39 @@
+{
+  "title": "GLPI",
+  "name": "glpi",
+  "version": "0.1.0",
+  "id": "glpi@teclib.com",
+  "homepage": "http://glpi-project.org/",
+  "description": "Mozilla Add-on to interact with GLPI webservices plugin",
+  "main": "./lib/main.js",
+  "author": "Alexander J. Salas B. <a.salas@ieee.org>",
+  "engines": {
+    "firefox": ">=38.0a1"
+  },
+  "permissions": {
+    "multiprocess": true,
+    "private-browsing": true,
+    "unsafe-content-script": true,
+    "cross-domain-content": [
+      "https://mediahint.com", "https://gist.githubusercontent.com"
+    ]
+  },
+  "preferences": [
+    {
+      "name": "state",
+      "title": "Enabled",
+      "description": "Turn ON and OFF the service",
+      "type": "bool",
+      "value": false
+    }
+  ],
+  "bugs": {
+    "url": "http://github.com/ajsb85/jpm-glpi/issues"
+  },
+  "license": "MPL-2.0",
+  "keywords": [
+    "jetpack",
+    "glpi",
+    "it"
+  ]
+}
